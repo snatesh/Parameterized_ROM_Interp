@@ -8,7 +8,7 @@ This repository constains prototype MATLAB codes that apply the local RB interpo
 
 In the PDF document, MethodDescription.pdf, the considered model problem is presented, its discretization reviewed, and the local RB interpolation algorithm is explicated and applied on the model problem. Lastly, an alternate formulation that overcomes the computational bottleneck inherent to the local RB interpolation method for problems with non-affine parameter dependence is described.
 
-The following animation illustrates how the parabolic diffusion equation with a random coefficient field "randomly" smooths initial noisy data during the transient phase constrained by the boundary conditions, towards the equilibrium distribution which is depicted in Figure 4 of the summary pdf.
+The following animation illustrates how the parabolic diffusion equation with a random coefficient field "randomly" and rapidly smooths initial noisy data during the transient phase constrained by the boundary conditions, towards the equilibrium distribution which is depicted in Figure 4 of the summary pdf.
 
 ![Sample Frame](transient_smooth.gif)
 
